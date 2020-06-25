@@ -5,7 +5,6 @@ public class TraversalVisitor extends ExprBaseVisitor<Integer> {
 	@Override 
 	public Integer visitProg(ExprParser.ProgContext ctx) { 
 		visitChildren(ctx); 
-		System.out.println("Calculation Finished!");
 		return 0;
 	}
 	@Override 
